@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Curso Javascript</title>
+</head>
+<body>
+	<div id="app">
+	</div>
+
+<script type="text/javascript">
+	var linkElement = document.createElement('a');
+	linkElement.setAttribute('href', 'https://vitoriastonefair.com.br');
+	linkElement.setAttribute('title', 'Feira do Mármore');
+
+	var textElement = document.createTextNode('acesse o site');
+	linkElement.appendChild(textElement);
+
+	var containerElement = document.querySelector('#app');
+	containerElement.appendChild(linkElement);
+</script>
+</body>
+</html>
